@@ -1,0 +1,3 @@
+Base_calling_accuracy_calculator.py is a Python script that calculates the base calling accuracy based on the Phred Score for bases or reads count. It can use either the fastqc_per_sequence_quality_scores_plot.tsv file, which is exported from the Per Sequence Quality Scores data in MultiQC, or any other matrix (bases count matrix or reads count matrix) with the same structure as input. For the reads count matrix, all reads must have the same length.
+
+Usage: Make sure the input file "fastqc_per_sequence_quality_scores_plot.tsv" is in this directory, and execute the following command in the Linux terminal: "./Base_calling_accuracy_calculator.py". The output file is "Base calling accuracy_raw.txt"
