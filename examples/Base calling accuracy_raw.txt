@@ -1,0 +1,2 @@
+	OG_skin_1	OG_skin_2	Total
+Base calling accuracy (%)	99.97424753630966	99.93553015710452	99.95488884670709
